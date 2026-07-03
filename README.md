@@ -87,24 +87,26 @@ jupyter lab   # or jupyter notebook
 
 - Open `code.ipynb`, update `DATA_DIR` to point to your prepared dataset, then run cells to train and save the model.
 
-## Notes & recommendations
-- `requirements.txt` has been added to pin compatible version ranges for runtime and notebook dependencies.
-- The model file is large (committed here). For distribution consider storing the model in a release, cloud storage, or converting/quantizing to reduce size (e.g., TFLite) if you need a mobile/edge target.
-- Consider adding a small sample test image and a short demo GIF or screenshots to the README for quick verification.
-- If you plan to deploy publicly, test TensorFlow + Streamlit memory/CPU usage on your target host and choose an appropriate instance.
 
-## Troubleshooting
-- If `tf.keras.models.load_model` fails in `app.py`, ensure:
-  - TensorFlow version matches the one used to save the model (compatibility can matter).
-  - The model file `plant_disease_model.keras` exists in the repo root or update `model_path` in `app.py`.
-- If images appear grayscale or have alpha channel issues, the app converts to RGB before resizing; ensure uploaded images are valid.
+## 🤝 Contributing
 
-## Contributing
-If you want help improving the project:
-- Add a `Dockerfile` for reproducible deployments.
-- Add tests or a small CI action to ensure the Streamlit app starts.
-- Provide a small sample dataset or sample images for quick smoke tests.
+Contributions are welcome! To contribute:
 
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/improvement`)
+3. Make your changes
+4. Commit your changes (`git commit -am 'Add improvement'`)
+5. Push to the branch (`git push origin feature/improvement`)
+6. Open a Pull Request
+
+## 📧 Contact & Support
+
+For questions, suggestions, or issues related to this project:
+
+- Create an [Issue](https://github.com/Shahid742/plant-disease-detection/issues)
+- Feel free to reach out to the project maintainer
+
+  
 ## License & contact
 - No license file included. Add a LICENSE if you want to permit reuse.
 - Questions or requests: open an issue on the repo.
