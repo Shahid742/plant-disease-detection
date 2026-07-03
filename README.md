@@ -107,6 +107,9 @@ For questions, suggestions, or issues related to this project:
 - Feel free to reach out to the project maintainer
 
   
-## License & contact
-- No license file included. Add a LICENSE if you want to permit reuse.
-- Questions or requests: open an issue on the repo.
+## ⚖️ License
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+
+Made with ❤️ by Shahid Mulani
